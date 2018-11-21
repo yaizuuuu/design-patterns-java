@@ -115,5 +115,17 @@ public class MyApp {
         for (int sale : sales3) {
             System.out.println(sale);
         }
+
+        String tom = sayHi("Tom");
+        String bob = sayHi("Bob");
+
+        System.out.println(tom);
+        System.out.println(bob);
+    }
+
+    public static String sayHi(String name) {
+        System.out.println("Hi" + name);
+
+        return "Hi" + name;
     }
 }
